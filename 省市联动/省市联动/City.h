@@ -10,5 +10,7 @@
 
 @interface City : NSObject
 @property(copy,nonatomic)NSString* name;
-@property(strong,nonatomic)NSArray* citys;
+@property(strong,nonatomic)NSArray* cities;
+
++(NSArray*)citys;
 @end
